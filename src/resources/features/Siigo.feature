@@ -5,3 +5,8 @@ Feature: Login to Siigo
     Given the user is on the login page
     When the user enters valid credentials
     Then the user should see the welcome message "Inicio"
+
+  Scenario: Create new customer
+    Given the user is on the login page
+    When the user enters valid credentials
+    And the user clicks on create customer button
